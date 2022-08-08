@@ -1,6 +1,6 @@
 # SIMPLE GO PROJECT 
 
-> This simple go project is talk about simple web application with golang on backend and Vue js on frontend, all of that is deployed on docker container with docker compose  
+> This simple go project is talk about simple web application with golang on backend with mysql database and Vue js on frontend, all of that is deployed on docker container with docker compose  
 
 
 # JUST CLONE AND COMPOSE
