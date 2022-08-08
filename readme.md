@@ -9,3 +9,13 @@
 git clone https://github.com/Ez4T/sample-go-project.git .
 docker-compose up -d --build
 ```
+<<<<<<< HEAD
+
+# Enjoyed
+
+> After running an application checkout the http://localhost:3080, that is a web application of this project. So if wanna try a sample api just import a 'go-project collection.postman_collection.json' in a postman.
+
+----------
+ Thank you for your attention.
+=======
+>>>>>>> 78456e9eeeed3b77e6d23e6fd29211f5b598e3eb
