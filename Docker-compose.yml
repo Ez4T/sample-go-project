@@ -1,0 +1,33 @@
+version: '3.9'
+services:
+  db:
+    image: mysql:8.0
+    cap_add: 
+      - SYS_NICE
+    restart: always
+    environment:
+      - MYSQL_DATABASE=interview
+      - MYSQL_ROOT_PASSWORD=interview@1234
+    ports:
+      - '3306:3306'
+  api:
+    container_name: web_api
+    build: ./backend
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - '8081:8081'
+    links:
+      - db
+  web:
+    container_name: web_front
+    build: ./frontend/
+    restart: always
+    ports:
+      - '3080:3080'
+    volumes:
+      - ./frontend:/app/
+volumes:
+  db:
+    driver: local
