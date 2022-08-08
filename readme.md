@@ -9,7 +9,6 @@
 git clone https://github.com/Ez4T/sample-go-project.git .
 docker-compose up -d --build
 ```
-<<<<<<< HEAD
 
 # Enjoyed
 
@@ -17,5 +16,3 @@ docker-compose up -d --build
 
 ----------
  Thank you for your attention.
-=======
->>>>>>> 78456e9eeeed3b77e6d23e6fd29211f5b598e3eb
