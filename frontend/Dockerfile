@@ -6,6 +6,8 @@ COPY . .
 
 RUN yarn install
 
+RUN yarn add express
+
 RUN yarn build
 
 EXPOSE 3080
